@@ -83,13 +83,21 @@
                 <h1 class="display-4 text-dark mb-4 animated slideInDown">Video Pengolahan</h1>
                 <nav aria-label="breadcrumb animated slideInDown">
                     <!-- Contoh pagination menggunakan Bootstrap -->
-                    <ul class="pagination justify-content-center ">
-                        <li class="page-item"><a class="page-link text-dark fw-bold" href="video.html">Kembali</a></li>
-                        <li class="page-item"><a class="page-link text-dark fw-bold" href="video.html">Sawi</a></li>
-                        <li class="page-item"><a class="page-link text-dark fw-bold" href="videokangkung.html">Kangkung</a></li>
-                        <li class="page-item"><a class="page-link text-dark fw-bold" href="videoterong.html">Terong</a></li>
-                        <li class="page-item"><a class="page-link text-dark fw-bold" href="videobayam.html">Bayam</a></li>
-                      </ul>
+                    <div class="dropdown">
+                        <button class="btn btn-primary dropdown-toggle text-white" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                            Temukan Sayuran
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                            <li><a class="dropdown-item" href="video.php">Sawi</a></li>
+                            <li><a class="dropdown-item" href="videokangkung.php">Kangkung</a></li>
+                            <li><a class="dropdown-item" href="videoterong.php">Terong</a></li>
+                            <li><a class="dropdown-item" href="videobayam.php">Bayam</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item active" href="video.php">Kembali</a></li>
+                        </ul>
+                    </div>
                 </nav>
             </div>
         </div>
